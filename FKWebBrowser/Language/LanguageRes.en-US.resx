@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Code_CommitGo" xml:space="preserve">
+    <value>//Open Website:</value>
+  </data>
+  <data name="Code_CommitSleep" xml:space="preserve">
+    <value>// if the second param is true, we will wait until website load complete.
+// if the second param is fasle, we will sleep several seconds.</value>
+  </data>
+  <data name="Code_CommitSleepFalse" xml:space="preserve">
+    <value>// Sleep 
+// Param1: 100ms=1, 1second = 10
+// Param2: true means wait until website load complete. false means just sleep several times.</value>
+  </data>
+  <data name="Code_CommitSleepTrue" xml:space="preserve">
+    <value>// Sleep 
+// Param1: 100ms=1, 1second = 10
+// Param2: true means wait until website load complete. false means just sleep several times.</value>
+  </data>
+  <data name="Desc_About" xml:space="preserve">
+    <value>[Hot Key]
+-------------------------------
+F1: Hide window. 
+F5: Run/Stop Script.
+F6: Start/Stop record script.
+F12: Show/Hide script window.</value>
+  </data>
+  <data name="EmptyTab" xml:space="preserve">
+    <value>New tab</value>
+  </data>
+  <data name="Filter_OpenAScriptFile" xml:space="preserve">
+    <value>Script file(*.fks)|*.fks</value>
+  </data>
+  <data name="Filter_SaveAScriptFile1" xml:space="preserve">
+    <value>Script file(*.fks)|*.fks</value>
+  </data>
+  <data name="Log_InitDone" xml:space="preserve">
+    <value>Init completed.</value>
+  </data>
+  <data name="Log_OpenFileError" xml:space="preserve">
+    <value>[Error]Can't open the file, error:{0}.</value>
+  </data>
+  <data name="Log_SaveFileError" xml:space="preserve">
+    <value>[Error]Can't save the file, error:{0}.</value>
+  </data>
+  <data name="Msgbox_ConfirmGoWebsite" xml:space="preserve">
+    <value>Do you want to go to new website?</value>
+  </data>
+  <data name="Msgbox_ConfirmSleep" xml:space="preserve">
+    <value>Sleep until webbrowser loaded?</value>
+  </data>
+  <data name="Msgbox_Message" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="Msgbox_SleepInfo" xml:space="preserve">
+    <value>Sleep time(100ms = 1):</value>
+  </data>
+  <data name="Msgbox_Website" xml:space="preserve">
+    <value>Website:</value>
+  </data>
+  <data name="Tips_CreateScript" xml:space="preserve">
+    <value>Create new script file done.</value>
+  </data>
+  <data name="Tips_FileReadOnly" xml:space="preserve">
+    <value>File readonly, can't save.</value>
+  </data>
+  <data name="Tips_FileSaved" xml:space="preserve">
+    <value>File saved complete.</value>
+  </data>
+  <data name="Tips_MinAppNotify" xml:space="preserve">
+    <value>Still working now...</value>
+  </data>
+  <data name="Tips_SaveScript" xml:space="preserve">
+    <value>Save a script file.</value>
+  </data>
+  <data name="Tip_BeginRunScript" xml:space="preserve">
+    <value>Script is running...</value>
+  </data>
+  <data name="Tip_CompleteRunScript" xml:space="preserve">
+    <value>Script run completed.</value>
+  </data>
+  <data name="Tip_Sleeping" xml:space="preserve">
+    <value>Now sleeping:</value>
+  </data>
+  <data name="UI_AccountMenu" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="UI_BackMenu" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="UI_ClearScriptBtn" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="UI_CloseAllTabMenu" xml:space="preserve">
+    <value>Close all tabs</value>
+  </data>
+  <data name="UI_CloseTabMenu" xml:space="preserve">
+    <value>Close tab</value>
+  </data>
+  <data name="UI_ContextMenu_Go" xml:space="preserve">
+    <value>Go to url</value>
+  </data>
+  <data name="UI_ContextMenu_Sleep" xml:space="preserve">
+    <value>Sleep</value>
+  </data>
+  <data name="UI_GoBtn" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="UI_LoginAccountMenu" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="UI_LogoutAccountMenu" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="UI_LogTabPage" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="UI_NewScriptMenu" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="UI_NewTabMenu" xml:space="preserve">
+    <value>New tab</value>
+  </data>
+  <data name="UI_NextMenu" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="UI_OpenScriptMenu" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="UI_RecordBtn" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="UI_RefreshMenu" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="UI_RegisterAccountMenu" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="UI_RunScriptBtn" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="UI_SaveAsScriptMenu" xml:space="preserve">
+    <value>Save as...</value>
+  </data>
+  <data name="UI_SaveScriptMenu" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="UI_ScriptMenu" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="UI_ScriptTabPage" xml:space="preserve">
+    <value>Script editor</value>
+  </data>
+  <data name="UI_ScriptWindowMenu" xml:space="preserve">
+    <value>Script editor</value>
+  </data>
+  <data name="UI_SettingAboutMenu" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="UI_SettingFlashMenu" xml:space="preserve">
+    <value>Enable/Disable flash</value>
+  </data>
+  <data name="UI_SettingHideAppMenu" xml:space="preserve">
+    <value>HideApp</value>
+  </data>
+  <data name="UI_SettingLangEN_USMenu" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="UI_SettingLanguageMenu" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="UI_SettingLangZH_CNMenu" xml:space="preserve">
+    <value>zh-CN</value>
+  </data>
+  <data name="UI_SettingMenu" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="UI_StopScriptBtn" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="UI_ViewMenu" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="WndTiltle_AppName" xml:space="preserve">
+    <value>FreeKnight WebBrowser</value>
+  </data>
+  <data name="WndTitle_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="WndTitle_AppVersionDesc" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="WndTitle_OpenAScriptFile" xml:space="preserve">
+    <value>Open a script file</value>
+  </data>
+  <data name="WndTitle_SaveAScriptFile1" xml:space="preserve">
+    <value>Save a script file</value>
+  </data>
+  <data name="Code_CommitAutoClinkElement" xml:space="preserve">
+    <value>// Auto click element</value>
+  </data>
+  <data name="Code_CommitAutoFillDropdown" xml:space="preserve">
+    <value>// Auto fill dropdown
+// Param2: the index of item, begin with "0" ... "itemCount".</value>
+  </data>
+  <data name="Code_CommitAutoFilliFrame" xml:space="preserve">
+    <value>// Auto fill iFrame</value>
+  </data>
+  <data name="Code_CommitAutoFillTextbox" xml:space="preserve">
+    <value>// Auto fill textbox</value>
+  </data>
+  <data name="Code_CommitCreateFile" xml:space="preserve">
+    <value>// Create a file
+// Param1: Data context
+// Param2: File name
+// Param3: If file exsit, true will append, false will cover.</value>
+  </data>
+  <data name="Code_CommitCreateFolder" xml:space="preserve">
+    <value>// Create a folder</value>
+  </data>
+  <data name="Code_CommitExtractAttribute" xml:space="preserve">
+    <value>// Extract elm's attribute</value>
+  </data>
+  <data name="Code_CommitGetFiles" xml:space="preserve">
+    <value>// Get files' list</value>
+  </data>
+  <data name="Code_CommitGetFolders" xml:space="preserve">
+    <value>// Get folders' list</value>
+  </data>
+  <data name="Code_CommitImageToText" xml:space="preserve">
+    <value>// Image ORC
+// Param1: Image's XPath
+// Param2: Image language type ( eng, chi_sim )</value>
+  </data>
+  <data name="Code_CommitKeyDown" xml:space="preserve">
+    <value>// KeyDown
+// Param1: Key value( 'A' .... 'Z'  .... '0' )
+// Param2: Delay time ( ms )</value>
+  </data>
+  <data name="Code_CommitKeyUp" xml:space="preserve">
+    <value>// KeyUp
+// Param1: Key value( 'A' .... 'Z'  .... '0' )
+// Param2: Delay time ( ms )</value>
+  </data>
+  <data name="Code_CommitMouseClick" xml:space="preserve">
+    <value>// MouseClick
+// Param1: Moust button( Left, Middle, Right )
+// Param2: Delay time ( ms )</value>
+  </data>
+  <data name="Code_CommitMouseDoubleClick" xml:space="preserve">
+    <value>// MouseDoubleClick
+// Param1: Moust button( Left, Middle, Right )
+// Param2: Delay time ( ms )</value>
+  </data>
+  <data name="Code_CommitMouseDown" xml:space="preserve">
+    <value>// MouseDown
+// Param1: Moust button( Left, Middle, Right )
+// Param2: Delay time ( ms )</value>
+  </data>
+  <data name="Code_CommitMouseMove" xml:space="preserve">
+    <value>// MouseMove
+// Param1: X pos
+// Param2: Y pos
+// Param3: is show mouse when moving
+// Param4: Delay time ( ms )</value>
+  </data>
+  <data name="Code_CommitMouseUp" xml:space="preserve">
+    <value>// MouseUp
+// Param1: Moust button( Left, Middle, Right )
+// Param2: Delay time ( ms )</value>
+  </data>
+  <data name="Code_CommitMouseWheel" xml:space="preserve">
+    <value>// MouseWheel
+// Param1: Rolling degree
+// Param2: Delay time ( ms )</value>
+  </data>
+  <data name="Code_CommitOpenExplore" xml:space="preserve">
+    <value>// Open a folder in explore</value>
+  </data>
+  <data name="Code_CommitReadExcel" xml:space="preserve">
+    <value>// Read excel cell</value>
+  </data>
+  <data name="Code_CommitRemoveFile" xml:space="preserve">
+    <value>// Remove a file</value>
+  </data>
+  <data name="Code_CommitRemoveFolder" xml:space="preserve">
+    <value>// Remove a folder</value>
+  </data>
+  <data name="Code_CommitRunCommand" xml:space="preserve">
+    <value>// Run command line
+// Param1: Command
+// Param2: Params</value>
+  </data>
+  <data name="Code_CommitSendEmail" xml:space="preserve">
+    <value>// Send E-mail</value>
+  </data>
+  <data name="Code_CommitShowMousePos" xml:space="preserve">
+    <value>// Show current mouse pos in "Log" tab.</value>
+  </data>
+  <data name="Code_CommitSnapShot" xml:space="preserve">
+    <value>// Full screen snapshot</value>
+  </data>
+  <data name="Code_CommitTextToJson" xml:space="preserve">
+    <value>// Format: Text-&gt;Json</value>
+  </data>
+  <data name="Code_CommitTextToXml" xml:space="preserve">
+    <value>// Format: Text-&gt;Xml</value>
+  </data>
+  <data name="Code_CommitWriteExcel" xml:space="preserve">
+    <value>// Write excel cell</value>
+  </data>
+  <data name="Log_CanntFindElm" xml:space="preserve">
+    <value>[Error]Cann't find given html element.</value>
+  </data>
+  <data name="Log_CanntFindWebBrowser" xml:space="preserve">
+    <value>[Error]Cann't get current web browser.</value>
+  </data>
+  <data name="Msgbox_Attribute" xml:space="preserve">
+    <value>Pls fill in attribute( e,g.: id )</value>
+  </data>
+  <data name="Msgbox_Dropdown" xml:space="preserve">
+    <value>Pls fill in dropdown's item index:</value>
+  </data>
+  <data name="Msgbox_iFrame" xml:space="preserve">
+    <value>Pls fill in iFrame:</value>
+  </data>
+  <data name="Msgbox_Textbox" xml:space="preserve">
+    <value>Pls fill in textbox:</value>
+  </data>
+  <data name="UI_ContextMenu_Advanced" xml:space="preserve">
+    <value>Advance</value>
+  </data>
+  <data name="UI_ContextMenu_Advanced_ImageToText" xml:space="preserve">
+    <value>Image to text</value>
+  </data>
+  <data name="UI_ContextMenu_Advanced_ReadExcel" xml:space="preserve">
+    <value>Read excel cell</value>
+  </data>
+  <data name="UI_ContextMenu_Advanced_RunCommand" xml:space="preserve">
+    <value>Run command</value>
+  </data>
+  <data name="UI_ContextMenu_Advanced_SendEmail" xml:space="preserve">
+    <value>Send mail</value>
+  </data>
+  <data name="UI_ContextMenu_Advanced_TakeSnapShot" xml:space="preserve">
+    <value>Print screen</value>
+  </data>
+  <data name="UI_ContextMenu_Advanced_TextToJson" xml:space="preserve">
+    <value>Format: Text-&gt;Json</value>
+  </data>
+  <data name="UI_ContextMenu_Advanced_TextToXml" xml:space="preserve">
+    <value>Format: Text-&gt;Xml</value>
+  </data>
+  <data name="UI_ContextMenu_Advanced_WriteExcel" xml:space="preserve">
+    <value>Write excel cell</value>
+  </data>
+  <data name="UI_ContextMenu_Base" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="UI_ContextMenu_Base_CreateFile" xml:space="preserve">
+    <value>Create file</value>
+  </data>
+  <data name="UI_ContextMenu_Base_CreateFolder" xml:space="preserve">
+    <value>Create folder</value>
+  </data>
+  <data name="UI_ContextMenu_Base_GetFiles" xml:space="preserve">
+    <value>Get files' list</value>
+  </data>
+  <data name="UI_ContextMenu_Base_GetFolders" xml:space="preserve">
+    <value>Get folders' list</value>
+  </data>
+  <data name="UI_ContextMenu_Base_OpenExplore" xml:space="preserve">
+    <value>Open dir in explore</value>
+  </data>
+  <data name="UI_ContextMenu_Base_RemoveFile" xml:space="preserve">
+    <value>Delete file</value>
+  </data>
+  <data name="UI_ContextMenu_Base_RemoveFolder" xml:space="preserve">
+    <value>Delete folder</value>
+  </data>
+  <data name="UI_ContextMenu_Database" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="UI_ContextMenu_Extract" xml:space="preserve">
+    <value>Extract item</value>
+  </data>
+  <data name="UI_ContextMenu_Extract_Attribute" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="UI_ContextMenu_Extract_Html" xml:space="preserve">
+    <value>Html</value>
+  </data>
+  <data name="UI_ContextMenu_Extract_Src" xml:space="preserve">
+    <value>Src</value>
+  </data>
+  <data name="UI_ContextMenu_Extract_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="UI_ContextMenu_Extract_Url" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="UI_ContextMenu_Fill" xml:space="preserve">
+    <value>Fill</value>
+  </data>
+  <data name="UI_ContextMenu_Fill_ClickElement" xml:space="preserve">
+    <value>ClickElement</value>
+  </data>
+  <data name="UI_ContextMenu_Fill_iFrame" xml:space="preserve">
+    <value>iFrame</value>
+  </data>
+  <data name="UI_ContextMenu_Fill_Textbox" xml:space="preserve">
+    <value>Textbox</value>
+  </data>
+  <data name="UI_ContextMenu_Keyboard" xml:space="preserve">
+    <value>Keyboard event</value>
+  </data>
+  <data name="UI_ContextMenu_Keyboard_KeyDown" xml:space="preserve">
+    <value>Key down</value>
+  </data>
+  <data name="UI_ContextMenu_Keyboard_KeyUp" xml:space="preserve">
+    <value>Key up</value>
+  </data>
+  <data name="UI_ContextMenu_Mouse" xml:space="preserve">
+    <value>Mouse event</value>
+  </data>
+  <data name="UI_ContextMenu_Mouse_GetCurrentMouse" xml:space="preserve">
+    <value>Get mouse pos</value>
+  </data>
+  <data name="UI_ContextMenu_Mouse_MouseClick" xml:space="preserve">
+    <value>Mouse click</value>
+  </data>
+  <data name="UI_ContextMenu_Mouse_MouseDoubleClick" xml:space="preserve">
+    <value>Mouse double click</value>
+  </data>
+  <data name="UI_ContextMenu_Mouse_MouseDown" xml:space="preserve">
+    <value>Mouse down</value>
+  </data>
+  <data name="UI_ContextMenu_Mouse_MouseMove" xml:space="preserve">
+    <value>Mouse move</value>
+  </data>
+  <data name="UI_ContextMenu_Mouse_MouseUp" xml:space="preserve">
+    <value>Mouse up</value>
+  </data>
+  <data name="UI_ContextMenu_Mouse_MouseWheel" xml:space="preserve">
+    <value>Mouse wheel</value>
+  </data>
+  <data name="Log_NoProxy" xml:space="preserve">
+    <value>Close proxy.</value>
+  </data>
+  <data name="Log_UseHttpProxyIP" xml:space="preserve">
+    <value>Set proxy ip:</value>
+  </data>
+  <data name="Log_UseHttpProxyPort" xml:space="preserve">
+    <value>Set proxy port:</value>
+  </data>
+  <data name="Msgbox_CurPos" xml:space="preserve">
+    <value>Current mouse position is:</value>
+  </data>
+  <data name="UI_ContextMenu_Fill_Dropdown" xml:space="preserve">
+    <value>Dropdown</value>
+  </data>
+  <data name="UI_MPTabPage" xml:space="preserve">
+    <value>MP</value>
+  </data>
+  <data name="UI_TPPTabPage" xml:space="preserve">
+    <value>TPP</value>
+  </data>
+</root>
